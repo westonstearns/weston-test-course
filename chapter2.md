@@ -145,7 +145,7 @@ test_output_contains("5 - 5", incorrect_msg = msg)
 test_output_contains("(5 + 5)/2", incorrect_msg = msg)
 test_output_contains("2^5", incorrect_msg = "L'exponentiation ne semble pas correcte. Vous &#234;tes certain de bien avoir suivi les instructions ? ")
 test_output_contains("28 %% 6", incorrect_msg = "Il y a un souci avec le modulo. Relisez bien les instructions.")
-success_msg("Bien jouE. On continue...")
+success_msg("Bien jou&#233;. On continue...")
 ```
 
 *** =skills
