@@ -3,7 +3,7 @@ title_meta  : Chapitre 2
 title       : Introduction
 description : Dans ce chapitre vous allez faire vos premiers pas avec R. Vous allez apprendre à utiliser la console comme calculatrice et à fabriquer vos premières variables. Vous allez aussi découvrir les principaux types d'objets que vous allez être amené à utiliser dans R. Tout va bien se passer, c'est parti ! 
 
---- type:NormalExercise xp:100
+--- type:NormalExercise xp:100 key:6e3fbc98a8
 ## L'interface de DataCamp
 
 Dans la partie **éditeur** sur votre droite vous allez devoir taper du code R pour résoudre les exercices. 
@@ -64,7 +64,7 @@ success_msg("Super ! Maintenant que vous êtes familiarisés avec l'interface, r
 *** =skills
 1
 
---- type:NormalExercise xp:100
+--- type:NormalExercise xp:100 key:51bb0777f8
 ## Un peu d'arithmétique
 
 Comme vu précédemment, R peut être utilisé très basiquement comme une simple calculatrice. Examinez les opérateurs arithmétiques suivant :
@@ -151,7 +151,7 @@ success_msg("Bien jou&#233;. On continue...")
 *** =skills
 1
 
---- type:NormalExercise xp:100
+--- type:NormalExercise xp:100 key:402114ce08
 ## Assignation de variable
 
 
@@ -205,7 +205,7 @@ success_msg("Bon boulot ! Avez-vous remarqué que R n'imprime pas la valeur d'un
 *** =skills
 1
 
---- type:NormalExercise xp:100
+--- type:NormalExercise xp:100 key:5adeea7ec9
 ## Assignation de variable (2)
 
 Supposons que vous ayez un panier de fruits avec cinq pommes. En tant que statisticien en formation, vous souhaitez stocker le nombre de pommes dans une variable avec le nom `mes_pommes`. 
@@ -255,7 +255,7 @@ success_msg("Bien ! Passons à l'exercice suivant ! ")
 *** =skills
 1
 
---- type:NormalExercise xp:100
+--- type:NormalExercise xp:100 key:4d1b7ee44e
 ## Assignation de variable (3)
 
 Chaque panier de fruit digne de ce nom a besoin d'oranges, donc vous décidez d'ajouter six oranges. En tant que statisticien, votre réflexe est de créer immédiatement la variable `mes_oranges` en lui affectant la valeur 6. Ensuite, vous voulez calculer combien de fruits vous avez au total. Puisque vous avez donné des noms à ces valeurs, vous pouvez maintenant coder ceci d'une manière claire : 
@@ -321,7 +321,7 @@ success_msg("Très bien ! Le grand avantage de faire des calculs avec les variab
 *** =skills
 1
 
---- type:NormalExercise xp:100
+--- type:NormalExercise xp:100 key:5152252445
 ## Des pommes et des oranges
 
 On nous dit souvent de ne pas additionner des pommes et des oranges (sur le même principe qu'il ne faut pas mélanger des choux et des carottes). Cependant, c'est exactement ce que nous venons de faire, non ? 
@@ -390,7 +390,7 @@ success_msg("Génial ! on peut passer à l'exercice suivant.")
 *** =skills
 1
 
---- type:NormalExercise xp:100
+--- type:NormalExercise xp:100 key:e696b6b4e3
 ## Les types d'objets de base en R
 
 R travaille avec de nombreux types de données. Voici les types les plus élémentaires pour débuter :
@@ -459,7 +459,7 @@ success_msg("Bon boulot ! On passe à l'exercice suivant.")
 *** =skills
 1
 
---- type:NormalExercise xp:100
+--- type:NormalExercise xp:100 key:9cf6e91f5e
 ## Quel est le type de cet objet ? 
 
 Vous souvenez-vous que lorsque vous avez ajouté des `5 + "six"` ? Vous avez eu une erreur due à une incompatibilité de types de données. Vous pouvez éviter ces situations embarrassantes en vérifiant le type de données d'une variable au préalable. Vous pouvez le faire comme suit :
