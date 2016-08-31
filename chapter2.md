@@ -1,3 +1,9 @@
+---
+title       : Insert the chapter title here 2
+description : Insert the chapter description here 2
+attachments :
+  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+
 --- type:NormalExercise lang:r xp:100 skills:1 key:22aaa845e9
 ## Vectors (1)
 
