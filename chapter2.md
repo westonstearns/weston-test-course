@@ -1,4 +1,4 @@
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:22aaa845e9
 ## Vectors (1)
 
 You can combine values of the same data type to a **vector**, using the function `c()`. 
