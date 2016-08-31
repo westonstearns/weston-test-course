@@ -59,6 +59,9 @@ my_vector <- c('a', 'b', 'c', 'd')
 # Create boolean vector
 boolean_vector <- c(TRUE, FALSE, TRUE, FALSE)
 
+# Make sure the vector defined is 'boolean'
+class(boolean_vector)
+
 ```
 
 *** =sct
@@ -67,7 +70,8 @@ test_output_contains("c(2, 3, 4, 5)", incorrect_msg = "Did you execute all the l
 test_output_contains("c(0.1, 0.2, 5.84, 0.7)", incorrect_msg = "Did you execute all the lines?")
 
 test_object("my_vector", incorrect_msg = "Did you execute `my_vector`?")
-test_object("class(boolean_vector)", incorrect_msg = "Did you create `boolean_vector` with same values as instructed?")
+#test_object("boolean_vector", incorrect_msg = "Did you create `boolean_vector` with same values as instructed?")
+test_function("class")
 test_error()
 
 # Final message the student will see upon completing the exercise
